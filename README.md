@@ -1,3 +1,5 @@
 # auto-game-playing
 一个自动化游戏脚本，用winform做界面，用python写底层函数。
-目前有一些bug还没修好，不是懒的修（笑）。
+里面内置了一个绿色版的python来处理py文件，但是实践中发现python2的包很难安装，似乎是因为要用到py2to3这个库。
+绿色版中的pip在安装库的时候默认调用python3x.zip内的包，不知道为什么在调用py2to3这个库的时候没办法找到里面的Grammar.txt文件。
+百度找不到结果，又不会弄梯子google，就只能把问题留着了。
